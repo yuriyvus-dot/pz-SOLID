@@ -1,0 +1,27 @@
+{
+  "name": "pz-solid",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "> У цьому занятті студенти отримують практичні навички застосування SOLID принципів під час рефакторингу існуючого коду.  \r > Мета — створити гнучку, масштабовану та чисту архітектуру шляхом застосування SRP, OCP, LSP, ISP та DIP.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && node dist/index.js",
+    "lsp": "npx tsc && node dist/LSP/liskov_good.js",
+    "srp": "npx tsc && node dist/SRP/srp_good.js",
+    "ocp": "npx tsc && node dist/OCP/good.js",
+    "isp": "npx tsc && node dist/ISP/isp_good.js",
+    "dip": "npx tsc && node dist/DIP/dip_good.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriyvus-dot/pz-SOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuriyvus-dot/pz-SOLID/issues"
+  },
+  "homepage": "https://github.com/yuriyvus-dot/pz-SOLID#readme"
+}
